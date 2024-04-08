@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=XSession
+Exec=/usr/local/bin/plasma-i3.sh
+Name=Plasma BSPWM
+Comment=Plasma With i3
+X-KDE-PluginInfo-Version=5.27.4
