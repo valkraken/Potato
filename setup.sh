@@ -1,8 +1,12 @@
 #!/bin/bash
 
-sudo apt install kde-plasma-desktop
+sudo apt install python3-pip rofi zsh git curl
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-echo "Seting up service"
-sudo mv ./files/plasma-i3.desktop /usr/share/xsessions
-sudo mv ./files/plasma-i3.sh/usr/local/bin/
-mv ./files/plasma-i3.service $HOME/.config/systemd/user
+pip install qtile
+
+cp ./.config/* $HOME/.config/
+cp ./local/bin/* $HOME/.local/bin/
+
+# Creating desktop entry
+sudo echo "" | base64 --decode > /usr/share/xsession/qtile.desktop 
