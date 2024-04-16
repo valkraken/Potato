@@ -1,7 +1,13 @@
 #!/bin/bash
 
+sudo apt update && sude apt upgrade -y
+
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> $HOME/.bashrc
+source $HOME/.bashrc
+
 sudo apt install python3-pip rofi zsh git curl
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 
 pip install qtile
 
