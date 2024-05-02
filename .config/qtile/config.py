@@ -168,7 +168,7 @@ def open_powermenu():
 
 
 widget_defaults = dict(
-    font="NotoSansM NFP ExtBd",
+    font="Hack Nerd Font Mono",
     fontsize=16,
     padding=3,
 )
@@ -184,8 +184,7 @@ screens = [
 		#Left
                 widget.TextBox(
                 	padding=15, 
-                	text="\uef72", 
-                	font="0xProto Nerd Font Mono", 
+                	text="󰣇", 
                 	fontsize=28, 
                 	mouse_callbacks={"Button1": open_launcher}
                 ),
@@ -196,7 +195,6 @@ screens = [
                 ),
                 	
                 widget.TextBox(
-                	font="0xProto Nerd Font Mono", 
                 	text="\ue0b6", 
                 	padding=0, 
                 	foreground=colors["background-2"], 
@@ -214,7 +212,6 @@ screens = [
                 ),
                 
                 widget.TextBox(
-                	font="0xProto Nerd Font Mono", 
                 	text="\ue0b4", 
                 	padding=0, 
                 	foreground=colors["background-2"], 
@@ -229,7 +226,6 @@ screens = [
                 
                 #Middel
 		        widget.TextBox(
-                	font="0xProto Nerd Font Mono", 
                 	text="\ue0b6", 
                 	padding=0, 
                 	foreground=colors["background-2"], 
@@ -242,7 +238,6 @@ screens = [
                 ),
                 
                 widget.TextBox(
-                	font="0xProto Nerd Font Mono", 
                 	text="\ue0b4", 
                 	padding=0, 
                 	foreground=colors["background-2"], 
@@ -254,7 +249,6 @@ screens = [
 
                 #Right
                 widget.TextBox(
-                	font="0xProto Nerd Font Mono", 
                 	text="\ue0b6", 
                 	padding=0, 
                 	foreground=colors["background-2"], 
@@ -313,7 +307,6 @@ screens = [
                 ),
 
                 widget.TextBox(
-                	font="0xProto Nerd Font Mono", 
                 	text="\ue0b4", 
                 	padding=0, 
                 	foreground=colors["background-2"], 
@@ -327,7 +320,6 @@ screens = [
                 ),
             
                 widget.TextBox(
-                	font="0xProto Nerd Font Mono", 
                 	text="\ue0b6", 
                 	padding=0, 
                 	foreground=colors["background-2"], 
@@ -352,7 +344,6 @@ screens = [
                 ),
 
                 widget.TextBox(
-                	font="0xProto Nerd Font Mono", 
                 	text="\ue0b4", 
                 	padding=0, 
                 	foreground=colors["background-2"], 
@@ -365,7 +356,6 @@ screens = [
                 ),
                 
                 widget.TextBox(
-                	font="0xProto Nerd Font Mono", 
                 	text="\ue0b6", 
                 	padding=0, 
                 	foreground=colors["background-2"], 
@@ -374,7 +364,7 @@ screens = [
 
                 widget.TextBox(
                 	text="󰖂",
-                	fontsize=18,  
+                	fontsize=28,  
                 	background=colors["background-2"],
                 ),
 
@@ -385,7 +375,7 @@ screens = [
                 ),
                 widget.TextBox(
                 	text="",
-                	fontsize=18, 
+                	fontsize=28, 
                 	padding=15, 
                 	background=colors["background-2"],
                 ),
@@ -398,7 +388,7 @@ screens = [
                                 
                 widget.TextBox(
                 	text="\uf011", 
-                	fontsize=18,  
+                	fontsize=28,  
                 	foreground=colors["highlight-2"], 
                 	background=colors["background-2"],
                 	mouse_callbacks={"Button1": open_powermenu}
@@ -406,7 +396,6 @@ screens = [
                    
             
                 widget.TextBox(
-                	font="0xProto Nerd Font Mono", 
                 	text="\ue0b4", 
                 	padding=0, 
                 	foreground=colors["background-2"], 
