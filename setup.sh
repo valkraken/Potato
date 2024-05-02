@@ -15,7 +15,7 @@ fi
 if [ $os = 2 ]; then
   echo "Arch install..."
   sudo pacman -Syu -y
-  sudo pacman -S rofi zsh git curl nvim python-psutil -y
+  sudo pacman -S rofi unzip zsh git curl nvim python-psutil -y
   git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
 fi
 
