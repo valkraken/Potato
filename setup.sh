@@ -11,7 +11,7 @@ fi
 
 if [ $os = 2 ]; then
   sudo pacman -Syu
-  sudo pacman -S python-3 rofi zsh git curl qtile nvim 
+  sudo pacman -S rofi zsh git curl nvim python-psutil
   git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
 fi
 
