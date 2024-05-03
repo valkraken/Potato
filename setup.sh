@@ -24,6 +24,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 mkdir $HOME/.config
 mkdir -p $HOME/.local/share/fonts
 
+cp ./oh-my-zsh/themes/val.zsh-theme $HOME/.oh-my-zsh/themes/
 cp -r ./.config/* $HOME/.config/
 cp -r ./local/* $HOME/.local/
 
